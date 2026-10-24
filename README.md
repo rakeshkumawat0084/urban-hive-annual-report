@@ -82,6 +82,20 @@ npm run build
 
 ---
 
+## ⚡ Deploy to Vercel
+
+This repository is pre-configured with `vercel.json` for zero-configuration deployment:
+
+1. Push your repository to GitHub.
+2. Go to [Vercel Dashboard](https://vercel.com/dashboard) and click **"Add New Project"**.
+3. Import this GitHub repository.
+4. Vercel automatically detects the framework as **Vite**:
+   - **Build Command:** `npm run build`
+   - **Output Directory:** `dist`
+5. Click **"Deploy"** — your live interactive report will be up in ~30 seconds!
+
+---
+
 ## 📁 Project Structure
 
 ```
